@@ -3,13 +3,13 @@
 <head>
 <title>Dementia Help</title>
 <style>
-.body{ 
+body{ 
 	background: #536976;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container{
-	padding: 80px;
+	padding-top: 50px;
 }
 
 .logo{
@@ -36,12 +36,16 @@ height: 200px;
   color: #909090 !important;
 }
 
-	
+.main{
+color: #FFFFFF;
+}
+
+
 </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>Dementia Help
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -68,7 +72,27 @@ height: 200px;
  <div class="col-sm-4"></div>
   <div class="col-sm-4 text-center"><img src="logo.png" class="logo" alt="Dementia Help"> </div>
   <div class="col-sm-4"></div>
+  </div>
 	</div>
+	<section class="main">
+	<div class="container">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6 center">
+  <h2>Login</h2>
+  <form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+  </div>
+  <div class="col-sm-3"></div>
 </div>
+</section>
+
 </body>
 </html>
